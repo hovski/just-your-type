@@ -13,6 +13,7 @@ html {
   text-size-adjust: 100%;
 
   font-family: Dosis, sans-serif;
+  background-color: #4693e3;
 }
 
 *, *::before, *::after {
@@ -25,4 +26,28 @@ body {
 
 .roboto {
   font-family: Roboto, sans-serif;
+}
+
+.grey {
+  color: #d3d3d3;
+}
+
+.bblue {
+  color: #4693e3;
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    background-color: #2e2e2e;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    background-color: #e2a845;
+  }
+
 }
