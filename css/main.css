@@ -36,6 +36,12 @@ body {
   color: #4693e3;
 }
 
+.border {
+  border-top: 1px;
+  border-bottom: 1px;
+  border-color: #d3d3d3;
+}
+
 @media only screen and (min-width: 38em) {
 
   html {
